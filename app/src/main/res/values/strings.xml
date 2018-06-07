@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalibrationApp</string>
+    <string name="hello_calibrate">Hello Calibrate</string>
+    <string name="calibrate_front">Calibrate Front</string>
+    <string name="calibrate_back">Calibrate Back</string>
+    <string name="calibrate_portrait_up">Calibrate &#10;Portrait Up</string>
+    <string name="calibrate_portrait_down">Calibrate &#10;Portrait Down</string>
+    <string name="calibrate_landscape_left">Calibrate &#10;Landscape Left</string>
+    <string name="calibrate_landscape_right">Calibrate &#10;Landscape Right</string>
+    <string name="calibrating_start">Calibrating Starts</string>
+    <string name="calibration_end">Calibration End</string>
+</resources>

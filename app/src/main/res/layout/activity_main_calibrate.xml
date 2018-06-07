@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="Calibration Options"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCalibrateFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/calibrate_front" />
+
+        <Button
+            android:id="@+id/btnCalibrateBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/calibrate_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCalibratePortraitUp"
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/calibrate_portrait_up" />
+
+        <Button
+            android:id="@+id/btnCalibratePortraitDown"
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/calibrate_portrait_down" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCalibrateLandscapeLeft"
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/calibrate_landscape_left" />
+
+        <Button
+            android:id="@+id/btnCalibrateLandscapeRight"
+            android:layout_width= "match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/calibrate_landscape_right"/>
+    </LinearLayout>
+</LinearLayout>
